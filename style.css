@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body
+{
+    background-color: #C5E4E7;
+    font-family: "Space Mono", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1
+{
+    width: 86.66px;
+    height: 53.14px;
+    top: 163px;
+    left: 677px;
+}
+
+.Main_SPLITTER
+{
+    background-color: #FFFFFF;
+    width: 920px;
+    height: 481px;
+    top: 304px;
+    left: 260px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Bill
+{
+    background-color: #FFFFFF;
+}
+
+.Tip_Amount
+{
+    background-color: #00474B;
+    width: 413px;
+    height: 417px;
+    border-radius: 15px;
+}
+
+.SPLITTER
+{
+    text-align: center;
+    color: #3D6666;
+}
+
+.Bill_Mony
+{
+    background-color: #F3F9FA;
+    border-radius: 5px;
+    width: 379px;
+    height: 48px;
+}
+
+.mony
+{
+    color: #9EBBBD;
+    width: 9.84000015258789;
+    height: 15.456000328063965;
+    top: 16.87px;
+    left: 19.26px;
+}
+
+.mony_number
+{
+    font-weight: 700;
+    size: 24px;
+    line-height: 35.54px;
+    text-align: right;
+}
+
+.five
+{
+    background-color: #00474B;
+    width: 117px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.Ten
+{
+    background-color: #00474B;
+    width: 117px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.Fifteen
+{
+    background-color: #26C2AE;
+    width: 117px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.Twenty-five
+{
+    background-color: #00474B;
+    width: 117px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.Fifty
+{
+    background-color: #00474B;
+    width: 117px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.Custom
+{
+    background-color: #F3F9FA;
+    width: 117px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.People_Number
+{
+    background-color: #F3F9FA;
+    border-radius: 5px;
+    width: 379px;
+    height: 48px;
+}
