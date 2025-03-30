@@ -3,6 +3,7 @@
 
     <head>
         <link rel="stylesheet" href="style.css">
+
     </head>
 
     <body>
@@ -10,38 +11,59 @@
 
         <div class="Main_SPLITTER">
 
-            <div class="Bill">
-                <p>Bill</p>
-                <input class="bill_input" placeholder="00.00"></input>
-                <p>Select Tip %</p>
-                <div class="Tip_%">
+            <div class="Bill_div">
+                <p class="bill">Bill</p>
+                <input class="bill_input" placeholder="142.55"></input>
+                <p class="select_tip">Select Tip %</p>
+                <div class="Tip">
 
-                    <button class="five">5%</button>
+                    <button class="button" value="5">5%</button>
 
-                    <button class="Ten">10%</button>
+                    <button class="button" value="10">10%</button>
 
-                    <button class="Fifteen">15%</button>
+                    <button class="button" value="15">15%</button>
 
-                    <button class="Twenty-five">25%</button>
+                    <button class="button" value="25">25%</button>
 
-                    <button class="Fifty">50%</button>
+                    <button class="button" value="50">50%</button>
 
-                    <button class="Custom">Custom</button>
+                    <input class="button"></input>
+
+                    <button class="Custom" value="">Custom</button>
 
                 </div>
-                <p>Number of People</p>
-                <input class="People_Number" placeholder="00.00"></input>
+                <p class="Number_of_People">Number of People</p>
+                <input class="People_Number bill_input" value="1"  placeholder="5"></input>
+                <img class="image" src="image/Combined Shape.png">
             </div>
 
             <div class="Tip_Amount">
-                <p>Tip Amount</p>
 
-                <p>Total</p>
+                <div class="tip_row">
 
-                <button class="RES">RESET</button>
+                <div>
+                <p class="tip_amount_3">Tip Amount</p>
+                <span class="person">/ person</span>
+                </div>
+                <h1 class="tip_amount">$4.27</h1>
+                </div>
+
+                <div class="tip_row">
+                <div>
+                <p class="Total_2">Total</p>
+                <span class="person_2">/ person</span>
+
+                </div>
+                <h1 class="tip_amount_2">$32.79</h1>
+                </div>
+                
+
+                <button class="RESET">RESET</button>
+                
             </div>
 
         </div>
+        <script src="script.js" defer></script>
     </body>
 
 </html>
